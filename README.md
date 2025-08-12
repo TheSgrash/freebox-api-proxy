@@ -13,7 +13,7 @@ npm install
 
 **Settings file:**
 
-The file `settings.json` must contain following JSON structure (you can use the `settings_template.json` as reference).. you can retrieve some of the needed info from the url `<ip_of_your_router>:<api_port>/api_version` 
+The file `settings.js` must contain following JSON structure (you can use the `settings_template.js` as reference).. you can retrieve some of the needed info from the url `<ip_of_your_router>:<api_port>/api_version` 
 
 ```json
 {
@@ -28,10 +28,7 @@ The file `settings.json` must contain following JSON structure (you can use the 
   "https_port"    : 11532,
   "device_name"   : "Give a name to this device"
 }
-
-export default freebox_api_config;
 ```
-
 
 **Run app locally:**
 
